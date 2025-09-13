@@ -1,0 +1,41 @@
+{
+  "name": "impact",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint",
+    "dev": "npm run lint && next dev --turbopack",
+    "build-only": "npm run lint && next build --turbopack",
+    "start": "npm run build-only && next start"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@msalek/utils": "^2.6.2",
+    "@mui/icons-material": "^7.3.2",
+    "@mui/material": "^7.3.2",
+    "@mui/material-nextjs": "^7.3.2",
+    "@reduxjs/toolkit": "^2.9.0",
+    "axios": "^1.11.0",
+    "dayjs": "^1.11.18",
+    "next": "15.5.2",
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  }
+}

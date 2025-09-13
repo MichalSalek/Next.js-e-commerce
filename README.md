@@ -83,7 +83,7 @@
    ![img2.png](readme-assets/img2.png)
 
 
-## TODO / Co dalej?:
+## TODO / Co dalej?
 
 
 1. i18n — w celu zastąpienia zahardkodzonych tekstów kluczami i obsługa tłumaczeń.
@@ -97,4 +97,5 @@
 1. W koszyku produkty po usunięciu nie muszą znikać — mogą się wyszarzać, by łatwej było przywrócić produkt oraz przejść na jego stronę.
 1. Zgodnie z dalszymi potrzebami: ewentualna Dockeryzacja w celu łatwiejszej replikacji aplikacji pod zwiększone obciążenie/rynek ogólnoświatowy.
 1. Pojawiająca się belka `FREE SHIPPING` po przekroczeniu jakiegoś progu ceny — dodając nowy produkt do koszyka, lub zwiększając ilość produktu w koszyku.
+1. Obsługa CMS.
 1. Cała masa innych rzeczy wynikających z budżetu/wymagań.
